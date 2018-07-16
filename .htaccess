@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?module=home [L]
+RewriteRule ^mahasiswa$ media.php?module=mahasiswa [L]
+RewriteRule ^add_mahasiswa$ media.php?module=add_mahasiswa [L]
+RewriteRule ^input_mahasiswa$ media.php?module=input_mahasiswa [L]
+RewriteRule ^nilai$ media.php?module=nilai [L]
+RewriteRule ^input_nilai$ media.php?module=input_nilai [L]
+Options All -Indexes
